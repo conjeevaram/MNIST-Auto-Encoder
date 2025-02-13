@@ -1,4 +1,4 @@
-# Anomaly-Detection-Auto-Encoder
+# MNIST Image Reconstruction using an Auto Encoder
 
 In preparation for building a more full scale, regularized auto-encoder for motor anomaly detection (which you can find [here](https://github.com/conjeevaram/Anomaly-Detection-Auto-Encoder)), I wanted to experiment with implementing one from scratch. This model is trained to replicate images from the MNIST dataset, while gaining an inert understanding for what certain classes present themselves as (what does a 7 typically look like). Learn more below.
 
