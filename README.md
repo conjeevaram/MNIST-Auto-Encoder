@@ -27,8 +27,11 @@ Below are some reconstruction results from MNIST:
 
 ![image](https://github.com/user-attachments/assets/bc2ad063-965e-4a13-adc1-977ab552011f)
 
+
+
 As mentioned above, auto-encoders can also be used to de-noise images. This is because their "understanding" of features in an image can help it infer where pixels should be. I wanted to experiment with this myself. I applied a strong Gaussian blur to MNIST images, and fed them into the model to be reconstructed. 
 
 ![image](https://github.com/user-attachments/assets/3a3a38e5-2020-4a2b-9a9a-aa3bc744d76b)
+
 
 As seen above, the model is typically able to slightly denoise the image, using its understanding of various digits to infer pixel values (brightness). This was really cool to see.
